@@ -25,6 +25,8 @@ github.com/Azure/go-autorest/autorest/date
 github.com/Azure/go-autorest/logger
 # github.com/Azure/go-autorest/tracing v0.5.0
 github.com/Azure/go-autorest/tracing
+# github.com/CapChrisCap/go-color v1.10.0
+github.com/CapChrisCap/go-color
 # github.com/Netflix/go-expect v0.0.0-20200312175327-da48e75238e2
 github.com/Netflix/go-expect
 # github.com/PuerkitoBio/purell v1.1.1

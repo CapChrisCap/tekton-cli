@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/fatih/color"
+	color "github.com/CapChrisCap/go-color"
 	corev1 "k8s.io/api/core/v1"
 	"knative.dev/pkg/apis/duck/v1beta1"
 )

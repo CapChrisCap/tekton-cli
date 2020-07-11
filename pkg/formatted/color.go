@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/fatih/color"
+	color "github.com/CapChrisCap/go-color"
 )
 
 var (

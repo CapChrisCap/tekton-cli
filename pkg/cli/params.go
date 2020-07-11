@@ -15,7 +15,7 @@
 package cli
 
 import (
-	"github.com/fatih/color"
+	color "github.com/CapChrisCap/go-color"
 	"github.com/jonboulle/clockwork"
 	"github.com/pkg/errors"
 	"github.com/tektoncd/pipeline/pkg/client/clientset/versioned"
@@ -179,7 +179,7 @@ func (p *TektonParams) config() (*rest.Config, error) {
 }
 
 func (p *TektonParams) SetNoColour(b bool) {
-	color.NoColor = b
+	color.NoColor = false
 }
 
 func (p *TektonParams) SetNamespace(ns string) {
